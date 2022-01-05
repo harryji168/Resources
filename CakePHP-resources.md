@@ -155,6 +155,8 @@ Additional lists you might find useful:
 - [PipingBag plugin](https://github.com/lorenzo/piping-bag) - Dependency injection container plugin that adds the ability to configure object instances and their dependencies before they are used, and to store them into a container class for easy access.
 
 ## E-commerce
+ - [Build a shopping cart with CakePHP and jQuery](https://startutorial.com/view/build-a-shopping-cart-with-cakephp-and-jquery-part-1) - For communicating with Paypal Web Payments Pro for transactions and information about your account.
+
 *Plugins and applications for taking payments and building online e-commerce stores.*
 
 - [PaypalWPP plugin](https://github.com/cpierce/paypal-wpp) - For communicating with Paypal Web Payments Pro for transactions and information about your account.
@@ -461,9 +463,28 @@ IDE specific compatibility information and tips can be found [here](https://gith
 
 ## CMS and applications built on CakePHP
 
-- [CakeBlog](https://github.com/gwhitcher/CakeBlog) - Open source blog software.
+
 - [Croogo](https://croogo.org) - CMS software
+Croogo is a CMS powered by the CakePHP which is developed by using CakePHP MVC frameworks, and it’s free. Essentially this open source is a multilingual CMS (content management system). This CakePHP based cms was established under the license of MIT. It allows its users to create the personalized contents such as pages, blogs, nodes and many others. Being a Croogo developer, you have an option of categorizing your content using the Taxonomy. You can even use its editor – WYSIWYG, to edit the content from your browser conveniently
+- [Wildflower](https://github.com/klevo/wildflower) - CMS software
+ Wildflower is again CakePHP based CMS. It is user-friendly and standard base CMS. This open source is developed using jQuery JavaScript libraries. Wildflower was also released under MIT license.
+- [OvenCMS](https://github.com/shama/oven) - CMS software
+OvenCMS is the open source content management system, developed by the jQuery JavaScript libraries and the CakePHP Frameworks. OvenCMS is completely modularized CMS. It has different plugins which offers solutions for the corporate applications, small sites and even to the large online communities.
+- [CupCake CMS](http://cupcakecms.sourceforge.net/) - CMS software
+This open source CMS is developed using the CakePHP frameworks; which is created to give web designers an advantage of using the effective and simple tool for managing the content of the medium and small scale sites. The CupCake CMS removes the need for programming. The WYSIWYG editor and user interface permit you to update and create the content even when you don’t have the working knowledge of HTML.
+- [Capuchn](http://cupcakecms.sourceforge.net/) - CMS software
+Capuchn is the open sourced CMS, developed on Dojo JavaScript Toolkit and the CakePHP frameworks. It was primarily designed so that it’s as easy to use as the WordPress, yet offers the developers extensive frameworks with which they can create rich websites. Popular features of Capuchn are elegant themes, TinyMCE editor integration, image gallery which is full featured, single page, client email integration, development of MVC framework, admin page, and much more.
+
+Apart from these 6 CakePHP based CMS, there are other CakePHP based CMS available you should take a note of:
+
+Another advantage of CupCake CMS is its lightweight and the quick deployments that it allows. However, this CMS isn’t designed for the management of community-based sites.
+- [Simpleflan](https://code.google.com/archive/p/simpleflan/source/default/source) - CMS software
+Simpleflan which is an open sourced CMS is very flexible and highly efficient for the designers. It allows convenient management for the portfolios. Despite the boasting of so many features, this is a clean UI. Simpleflan has been designed for the developers to manage clients, projects, categories, automatic image saving and resizing, images and many others.
+
+It is compatible with the CakePHP 1.2 and that allows it to be compatible with both PHP5 and PHP4.
+
 - [QuickApps-CMS](https://github.com/quickapps/cms) - Open source content management system.
+- [CakeBlog](https://github.com/gwhitcher/CakeBlog) - Open source blog software.
 
 ## Demo
 *Web-based (demo) applications and tools.*
