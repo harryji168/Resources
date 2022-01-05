@@ -1,1 +1,1 @@
-# Resources for technology
+Resources for technology
