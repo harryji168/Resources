@@ -1,13 +1,11 @@
  # NGRX  
+ 
+*   [Reactive apps with Angular & ngrx](http://blog.brakmic.com/reactive-apps-with-angular-ngrx/)
+*   [How to Really use NgRX](https://blog.dmbcllc.com/how-to-really-use-ngrx/)
+*   [Authentication in Angular with NGRX Store and Effects](http://mherman.org/blog/2018/04/17/authentication-in-angular-with-ngrx)
+*   [Quickly Adding NgRx to Your Angular 6 Project](https://www.intertech.com/Blog/ngrx-tutorial-quickly-adding-ngrx-to-your-angular-6-project)
 
-NGRX Reactive State for Angular
+[](#unrelated-bookmarks)Unrelated bookmarks
+===========================================
 
-NgRx is a framework for building reactive applications in Angular. NgRx provides libraries for:
-
-Managing global and local state.
-Isolation of side effects to promote a cleaner component architecture.
-Entity collection management.
-Integration with the Angular Router.
-Developer tooling that enhances developer experience when building many different types of applications.
-Packages
-NgRx packages are divided into a few main categories
+*   [Request Deferrer](https://serviceworke.rs/request-deferrer.html)
