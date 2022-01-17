@@ -1,7 +1,21 @@
-# [](#awesome-puppeteer-)Awesome Puppeteer 
-> A curated list of awesome [puppeteer](https://developers.google.com/web/tools/puppeteer/) resources for controlling [headless](https://developers.google.com/web/updates/2017/04/headless-chrome) Chrome (or Chromium) over the [DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/).
+# Puppeteer 
+ 
+ https://github.com/puppeteer/puppeteer
+ 
+ Puppeteer is a Node library which provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol. It can also be configured to use full (non-headless) Chrome or Chromium.
+ 
+ What can I do?
+Most things that you can do manually in the browser can be done using Puppeteer! Here are a few examples to get you started:
 
-[![Puppeteer Logo](https://raw.githubusercontent.com/transitive-bullshit/awesome-puppeteer/master/logo.png)](https://raw.githubusercontent.com/transitive-bullshit/awesome-puppeteer/master/logo.png)
+Generate screenshots and PDFs of pages.
+Crawl a SPA (Single-Page Application) and generate pre-rendered content (i.e. "SSR" (Server-Side Rendering)).
+Automate form submission, UI testing, keyboard input, etc.
+Create an up-to-date, automated testing environment. Run your tests directly in the latest version of Chrome using the latest JavaScript and browser features.
+Capture a timeline trace of your site to help diagnose performance issues.
+Test Chrome Extensions.
+
+ 
+ [![Puppeteer Logo](https://raw.githubusercontent.com/transitive-bullshit/awesome-puppeteer/master/logo.png)](https://raw.githubusercontent.com/transitive-bullshit/awesome-puppeteer/master/logo.png)
 
 *    [![china](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **中文/Chinese**](https://github.com/transitive-bullshit/awesome-puppeteer/blob/master/readme.zh.md)
 
