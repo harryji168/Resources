@@ -7,31 +7,13 @@
  Build a Chatbot With Dialogflow
 Build a fullstack conversational experience with Dialogflow and Firebase Cloud Functions.
 
-
-The Top 429 Dialogflow Open Source Projects on Github
------------------------------------------------------
-
-Topic > **Dialogflow**
+ 
 
 [Nodejs Dialogflow ⭐ 752](https://awesomeopensource.com/project/googleapis/nodejs-dialogflow)
 
 [Node.js client for Dialogflow: Design and integrate a conversational user interface into your applications and devices.](https://awesomeopensource.com/project/googleapis/nodejs-dialogflow)
 
-[
-
-Sponsored by Mailchimp
-
-Get smarter marketing from Mailchimp
-
-Automate your marketing with Customer Journey builder so you can focus on growing your business.
-
-![](https://cdn4.buysellads.net/uu/1/65221/1591030138-MC_CarbonNativeCPC_Logo_250x100.png)
-
-
-
-
-
-](//srv.buysellads.com/ads/click/x/GTND42JWCV7IV5QUCY74YKQNCE7D6KJMCYBDEZ3JCYBD6K7EC6YI5K7KCASIKK7NCA7I5KQWCVYI55QUF6BDC2QKC6SDVKJIF6BIKK3EHJNCLSIZ?segment=placement:awesomeopensourcecom; "Get smarter marketing from Mailchimp")![](https://ad.doubleclick.net/ddm/trackimp/N1224323.3091281BUYSELLADS/B25600467.324550642;dc_trk_aid=516577973;dc_trk_cid=157533268;ord=1642396155;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=?)![](https://pixel.adsafeprotected.com/rfw/st/681307/59736597/skeleton.gif?gdpr=$&gdpr_consent=$&gdpr_pd=$&ias_dspID=64&network=BUYSELLADS)
+ 
 
 [Botfront ⭐ 618](https://awesomeopensource.com/project/botfront/botfront)
 
@@ -52,22 +34,7 @@ Automate your marketing with Customer Journey builder so you can focus on growin
 [Botonic ⭐ 227](https://awesomeopensource.com/project/hubtype/botonic)
 
 [Build chatbots and conversational experiences using React](https://awesomeopensource.com/project/hubtype/botonic)
-
-[
-
-Sponsored by Microsoft Azure
-
-Try Azure for free
-
-Code in Node.js, Java, Python, and other open-source languages.
-
-![](https://cdn4.buysellads.net/uu/1/106122/1640617847-Microsoft-logo_rgb_c-wht-250x100.png)
-
-
-
-
-
-](//srv.buysellads.com/ads/click/x/GTND42JWCV7IV5QUCY74YKQNCE7D6KJJCASD4Z3JCYBD6K7EC67IK53KCASIKK7NCA7I5KQWCVYI55QUF6BDC2QKC6SDVKJIF6BIKK3EHJNCLSIZ?segment=placement:awesomeopensourcecom; "Try Azure for free")![](https://ad.doubleclick.net/ddm/trackimp/N572608.452584BUYSELLADS.COM/B26936539.322903869;dc_trk_aid=515499516;dc_trk_cid=157782562;ord=1642396155;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$;gdpr_consent=$;ltd=?)![](https://pixel.adsafeprotected.com/rfw/st/901515/59187605/skeleton.gif?gdpr=$&gdpr_consent=$&gdpr_pd=$&ias_dspID=64&network=BUYSELLADS)
+ 
 
 [Unit Uskit ⭐ 204](https://awesomeopensource.com/project/baidu/unit-uskit)
 
