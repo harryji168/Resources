@@ -1,5 +1,8 @@
 # Algolia
 
+https://react-instantsearch.netlify.app/examples/e-commerce/search/
+
+
  Algolia is a French startup company offering a search engine through a SaaS (software as a service) model.
 
  Algolia was founded in 2012 by Nicolas Dessaigne and Julien Lemoine, both originally from Paris, France. It was originally a company focused on offline search on mobile phones. Later it was selected to be part of Y Combinator's[1] Winter 2014 class.
