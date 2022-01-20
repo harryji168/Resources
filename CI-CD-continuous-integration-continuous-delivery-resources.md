@@ -6,3 +6,5 @@ In software engineering, continuous integration (CI) is the practice of merging 
 
 
 A CI/CD tool such as Jenkins, CircleCI, AWS CodeBuild, Azure DevOps, Atlassian Bamboo, or Travis CI is used to automate the steps and provide reporting. A typical CD pipeline has build, test, and deploy stages.
+
+![devopstools](https://user-images.githubusercontent.com/21187699/150245211-41f6abf1-5cd7-4ee2-b090-9f5ddc04f2fd.png)
