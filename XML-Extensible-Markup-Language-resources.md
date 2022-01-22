@@ -6,3 +6,9 @@ The design goals of XML emphasize simplicity, generality, and usability across t
 
 Several schema systems exist to aid in the definition of XML-based languages, while programmers have developed many application programming interfaces (APIs) to aid the processing of XML data.
 
+*   [XML-Comp - Simple command line XML comparer that generates diffs of folders, files and tags.](https://github.com/xml-comp/xml-comp "Go to XML-Comp link")
+*   [xml2map - XML to MAP converter written Golang.](https://github.com/sbabiv/xml2map "Go to xml2map link")
+*   [xmlwriter - Procedural XML generation API based on libxml2’s xmlwriter module.](https://github.com/shabbyrobe/xmlwriter "Go to xmlwriter link")
+*   [xpath - XPath package for Go.](https://github.com/antchfx/xpath "Go to xpath link")
+*   [xquery - XQuery lets you extract data from HTML/XML documents using XPath expression.](https://github.com/antchfx/xquery "Go to xquery link")
+*   [zek - Generate a Go struct from XML.](https://github.com/miku/zek "Go to zek link")
