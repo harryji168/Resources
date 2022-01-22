@@ -1,5 +1,8 @@
 ### Mocha  
 
+Mocha is a JavaScript test framework for Node.js programs, featuring browser support, asynchronous testing, test coverage reports, and use of any assertion library.[1]
+
+
 [Categories](https://awesomeopensource.com) > [Software Quality](https://awesomeopensource.com/categories/software-quality) > **Mocha**
 
 [Nodebestpractices ⭐ 73,621](https://awesomeopensource.com/project/goldbergyoni/nodebestpractices)
