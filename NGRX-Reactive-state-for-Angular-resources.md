@@ -1,5 +1,8 @@
  # NGRX  
  
+ NGRX  Reactive State for Angular
+https://ngrx.io/
+
 *   [Reactive apps with Angular & ngrx](http://blog.brakmic.com/reactive-apps-with-angular-ngrx/)
 *   [How to Really use NgRX](https://blog.dmbcllc.com/how-to-really-use-ngrx/)
 *   [Authentication in Angular with NGRX Store and Effects](http://mherman.org/blog/2018/04/17/authentication-in-angular-with-ngrx)
