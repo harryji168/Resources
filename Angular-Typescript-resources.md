@@ -5,6 +5,7 @@ Angular (commonly referred to as "Angular 2+" or "Angular CLI")[4][5] is a TypeS
 Angular is used as the frontend of the MEAN stack, consisting of MongoDB database, Express.js web application server framework, Angular itself (or AngularJS), and Node.js server runtime environment.
 
 angular.io
+https://github.com/harryji168/angular-ngrx-material-starter-learning
 
 Table of contents:
 
