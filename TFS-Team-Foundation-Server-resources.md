@@ -4,3 +4,5 @@ Azure DevOps Server (formerly Team Foundation Server (TFS) and Visual Studio Tea
 
 
 Configure and manage TFS resources
+
+https://documentation.help/TFS-2003/d553c7b0-e794-41dc-a7ef-91d7a5e1e46b.htm
