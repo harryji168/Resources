@@ -6,13 +6,7 @@ Camunda is based in Berlin with offices in San Francisco and Denver, USA.
 
 It provides a Business Process Model and Notation (BPMN) standard compliant workflow engine and a Decision Model and Notation (DMN) standard compliant decision engine, which can be embedded in Java applications and with other languages via REST.
 
-
-[](#awesome-camunda)awesome-camunda
-===================================
-
-A curated list of awesome Camunda BPM projects, libraries, tools, documentation, forum posts, etc.
-
-![exclamation](https://github.githubassets.com/images/icons/emoji/unicode/2757.png) See something missing, an error, an improvement? Please contribute with Pull Requests!
+ 
 
 [](#official-github-accounts)Official Github Accounts
 =====================================================
