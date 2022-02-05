@@ -1,6 +1,12 @@
 ##  2D Animation Resources: The Complete List \[2022\]
 ==================================================
 
+3D 的旅行地圖：
+https://geo-devrel-io2021-travel.web.app/#flights
+環球世界的裝飾動畫，無論多大多小，都不會變形
+https://codepen.io/jjperezaguinaga/pen/DZxRmb
+
+
 If you came here looking to find a list of the best 2D animation tools, then you came to the right place.
 
 This is 50 of the best 2D animation tools, script and platform from years of making [2D animation](https://sageanimation.com/) and submissions from the lovely community. Hope you’ll find something here that is useful. 
