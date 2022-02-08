@@ -1,0 +1,329 @@
+#    Server-Side Rendering (SSR)
+   Static Site Generators (SSG)
+
+ 
+ Server-side rendering (SSR), is the ability of an application to contribute by displaying the web-page on the server instead of rendering it in the browser. Server-side sends a fully rendered page to the client; the client’s JavaScript bundle takes over and allows the SPA framework to operate. There is also client-side rendering which slows down the procedure of viewing and interacting with the web page.
+
+Advantages of using server-side rendering
+It enables pages to load faster which provides a better user experience.
+
+It plays an important role in SEO (search engine optimization) and correctly indexes webpages. This happens because Google favors web pages with faster load time.
+
+It provides body to the HTML pages for all server ships.
+
+It assists with​ loading the page when the user has a​ slow internet connection.
+
+It assists in loading the page when the user has an outdated device.
+
+
+*   **Introduction**  
+    Explains why universal rendering is beneficial, the different techniques of doing universal rendering (SSR, SSG, pre-rendering) and when to use what technique.
+*   **Learning Material**
+    *   SEO benefits of universal rendering
+    *   Performance benefits of SSR
+    *   How to implement SSR
+*   **Tools**
+    *   SSR frameworks & libraries
+    *   Pre-rendering services & tools
+    *   Static site generators
+
+  
+
+#### [](#contents)Contents
+
+*   [Introduction](#introduction)
+*   [Learning Material](#learning-material)
+*   [Tools](#tools)
+
+  
+
+[](#introduction)Introduction
+-----------------------------
+
+Modern view libraries (React, Vue, Angular, etc.) render views to the DOM in the browser but they can as well render views to HTML on the server. This capability can be used to render the same view twice: First to HTML then again to the DOM. (Re-rendering the view in the browser is called _hydrating_.) This practice is called _universal rendering_ (aka isomorphic rendering).
+
+Universal rendering leads to improvements in SEO, SMO and performance.
+
+There are several techniques to achieve universal rendering:
+
+*   Server-Side Rendering (SSR)
+*   Static Site Generators (SSG)
+*   Pre-Rendering
+
+In the following we explain these techniques and the benefits of universal rendering.
+
+*   [Benefits](#benefits)
+*   [Techniques](#techniques)
+
+### [](#benefits)Benefits
+
+#### [](#seo)SEO
+
+Modern frontends (React, Vue, Angular, ...) use JavaScript to load and display content. Such JavaScript-generated-content is invisible to crawlers that don't execute JavaScript. Most crawlers (search engines and social sites) don't execute JavaScript.
+
+The Google crawler is the only one that can successfully index JavaScript-generated-content. But it has limitations. (Mainly around delayed indexing and client-side routing, see [Learning Material](#learning-material).)
+
+If you want your content to be crawled by all other search engines (Bing, Baidu, DuckDuckGo, etc.), then your content needs to be included in your website's HTML.
+
+#### [](#smo)SMO
+
+The crawler of social media sites (Facebook, Twitter, ...) don't execute JavaScript and rely on HTML exclusively.
+
+If you want your website to be correctly previewed when a user shares your website, then the corresponding information needs to be included in your website's HTML.
+
+(SMO means "Social Media Optimization".)
+
+#### [](#performance)Performance
+
+Rendering your website's pages to HTML decreases the perceived loading time: Once the HTML is loaded, content can already be displayed before any JavaScript is loaded/executed.
+
+The improvement is considerable on mobile where loading and executing JavaScript is much slower.
+
+### [](#techniques)Techniques
+
+Server-Side Rendering (SSR), Pre-Rendering, and Static Site Generators (SSG) are techniques to render JavaScript-generated-content to HTML. Making the content visible to crawlers and improving performance.
+
+There are two ways to render JavaScript-generated-content to HTML:
+
+*   **Directly render to HTML**  
+    Modern view libraries (React, Vue, Angular, ...) can render views to HTML (in addition to be able to render views to the DOM). (E.g. a React component can be rendered to HTML with `require('react-dom/server').renderToStaticMarkup()`.)
+*   **Render to HTML via headless browser**  
+    A headless browser runs your website's JavaScript, the website's pages are rendered to the DOM of the headless browser, and HTML is automatically generated from the resulting DOM.
+
+Leading to the following techniques:
+
+*   **Server-Side Rendering (SSR)**  
+    Directly render your website's pages to HTML at request-time: Every time a user requests a page, the server renders the page directly to HTML.  
+    SSR is the most reliable option if your HTML changes frequently. (If your website's content may change after deploy-time, e.g. if you website's content is generated by users.)
+*   **Pre-Rendering**  
+    A headless browser crawls your website, executes the website's JavaScript, and generates HTML upon the resulting DOM.
+*   **Static Site Generators (SSG)**  
+    A static site is a website that doesn't have any server code: The website is composed of static browser assets only (HTML, CSS, JavaScript, images, fonts, etc.). Some SSG are able to render your views to HTML at build-time: When your website is built, each page is rendered to a HTML file that includes your page's content.  
+    If your content only changes at deploy-time, then using a SSG is an option.
+
+  
+  
+
+[](#learning-material)Learning Material
+---------------------------------------
+
+### [](#seosmo)SEO/SMO
+
+*   [Hacker News Comment](https://news.ycombinator.com/item?id=12759605) - This HN comment explains the problem with SEO and search engines other than Google.
+*   [Tweet from Google employee](https://twitter.com/Paul_Kinlan/status/1039852756113080320) - Tweet about delayed Google indexing for pure client-side.
+*   [What's Server Side Rendering and do I need it?](https://medium.com/@baphemot/whats-server-side-rendering-and-do-i-need-it-cb42dc059b38) - Good summary about the issues of JavaScript-generated-content.
+*   [Deliver search-friendly JavaScript-powered websites (Google I/O '18)](https://www.youtube.com/watch?v=PFwUbgvpdaQ) - Talk that mentions how the Google crawler executes JavaScript. Main take away: Google does index JavaScript-generated-content but with a delay.
+
+### [](#how-to-implement-ssr)How to implement SSR
+
+*   [The Complete Guide for SSR with Vue](https://ssr.vuejs.org/) - Official guide.
+*   [Reactjs SSR Tips and Tricks](https://medium.com/@atahani/reactjs-ssr-tips-and-tricks-be9edff5b7bb)
+*   [Server-side rendering with create-react-app, code-splitting, preloaded data, React Router, Helmet, Redux, and Thunk](https://medium.com/@cereallarceny/server-side-rendering-in-create-react-app-with-all-the-goodies-without-ejecting-4c889d7db25e) - Walkthrough of implementing a SSR app based on CRA (without having ejected).
+
+### [](#general-discussion)General discussion
+
+*   [The Benefits of Server Side Rendering Over Client Side Rendering](https://medium.com/walmartlabs/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8)
+
+  
+  
+
+[](#tools)Tools
+---------------
+
+#### [](#contents-1)Contents
+
+*   [React](#react)
+    *   [SSR](#ssr)
+    *   [SSG](#ssg)
+    *   [Pre-Rendering](#pre-rendering)
+*   [Vue](#vue)
+    *   [SSR](#ssr-1)
+    *   [SSG](#ssg-1)
+    *   [Pre-Rendering](#pre-rendering-1)
+*   [Angular](#angular)
+    *   [SSR](#ssr-2)
+    *   [Pre-Rendering](#pre-rendering-2)
+*   [View Library Agnostic](#view-library-agnostic)
+    *   [SSG](#ssg-2)
+    *   [Pre-Rendering](#pre-rendering-3)
+
+  
+
+### [](#react)React
+
+#### [](#ssr)SSR
+
+##### [](#frameworks)Frameworks
+
+*   [Next.js](https://github.com/zeit/next.js#readme) - The most popular SSR tool.
+*   [After.js](https://github.com/jaredpalmer/after.js#readme) - Similar to Next.js but with routing based on React Router.
+*   [React Server](https://github.com/redfin/react-server#readme)
+*   [Reframe](https://github.com/reframejs/reframe#readme) - Flexible web framework. It does SSR by default and can be used as SSG.
+*   [Fusion.js](https://github.com/fusionjs) - Plugin-based universal web framework maintained by Uber.
+
+##### [](#libraries)Libraries
+
+*   [Goldpage](https://github.com/reframejs/goldpage) - A do-one-thing-do-it-well library that supports all app types; "SPA", "SSR", "Static Website", etc.
+*   [Razzle](https://github.com/jaredpalmer/razzle#readme) - Handles the building. You do the rest.
+*   [React Universal Component](https://github.com/faceyspacey/react-universal-component#readme) - Utility to code split your SSR app.
+*   [Rogue.js](https://github.com/alidcastano/rogue.js#readme) - SSR utilities focused on flexibility. First-class support for React Router, Apollo GraphQL, Redux, Emotion, and Styled-Components. The build step is up to you (but you can use Razzle.)
+
+##### [](#boilerplates)Boilerplates
+
+*   [cra-ssr](https://github.com/cereallarceny/cra-ssr#readme) - SSR app boilerplate based on CRA (without having ejected).
+
+#### [](#ssg)SSG
+
+*   [Gatsby.js](https://github.com/gatsbyjs/gatsby#readme) - SSG based on React and GraphQL.
+*   [React Static](https://github.com/nozzle/react-static#readme) - SSG based on React and focused on simplicity.
+*   [Goldpage](https://github.com/reframejs/goldpage) - A do-one-thing-do-it-well library that supports all app types; "SPA", "SSR", "Static Website", etc.
+*   [Phenomic](https://github.com/phenomic/phenomic#readme) - SSG based on a flexible plugin system.
+*   [Next.js](https://github.com/zeit/next.js#readme) - Although primarily focused on SSR, Next.js can also generate static sites.
+*   [Reframe](https://github.com/reframejs/reframe#readme) - Flexible web framework. It does SSR by default and can be used as SSG.
+
+#### [](#pre-rendering)Pre-Rendering
+
+#### [](#dynamic-pre-rendering)Dynamic Pre-Rendering
+
+Automatically and regularly render your deployed website to HTML.
+
+##### [](#saas)SaaS
+
+*   [Prerender.io](https://prerender.io/)
+*   [SEO4Ajax](https://www.seo4ajax.com/)
+*   [Prerender.cloud](https://www.prerender.cloud/)
+*   [SEO.js](http://getseojs.com/)
+*   [BromBone](https://www.brombone.com/)
+
+##### [](#libraries-1)Libraries
+
+*   [Prerender.io Node Server](https://github.com/prerender/prerender#readme) - The prerender.io Node Server is open source.
+
+#### [](#static-pre-rendering)Static Pre-Rendering
+
+_Some static pre-renderers, instead of generating HTML upon a generated DOM, directly render your pages to HTML._
+
+*   [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin#readme) - Uses Puppeteer to crawl & render your pages.
+*   [react-snap](https://github.com/stereobooster/react-snap#readme) - Uses Puppeteer to crawl & render your pages.
+*   [prep](https://github.com/prismagraphql/prep#readme) - Uses Chromeless to crawl & render your pages.
+*   [SSG webpack plugin](https://github.com/markdalgleish/static-site-generator-webpack-plugin#readme) - Directly render your pages to HTML. You provide render functions and routes. All routes are rendered at build-time using the render functions you provided. Also has a crawl mode to use a headless browser to automatically discover your website's URLs.
+*   [React Snapshot](https://github.com/geelen/react-snapshot#readme) - Pre-renders React apps at build-time. Uses `require('react-dom/server').renderToString` to directly render the HTML. Uses JSDOM as headless browser to automatically discover your app's URLs.
+
+  
+
+### [](#vue)Vue
+
+#### [](#ssr-1)SSR
+
+##### [](#frameworks-1)Frameworks
+
+*   [Nuxt](https://github.com/nuxt/nuxt.js#readme) - Similar to Next.js but for Vue.
+*   [Reframe](https://github.com/reframejs/reframe#readme) - Flexible web framework. It does SSR by default and can be used as SSG.
+
+##### [](#libraries-2)Libraries
+
+*   [vue-server-renderer](https://www.npmjs.com/package/vue-server-renderer) - Official library for SSR with Vue.
+*   [Goldpage](https://github.com/reframejs/goldpage) - A do-one-thing-do-it-well library that supports all app types; "SPA", "SSR", "Static Website", etc.
+
+#### [](#ssg-1)SSG
+
+*   [Phenomic](https://github.com/phenomic/phenomic#readme) - SSG based on a flexible plugin system.
+*   [Reframe](https://github.com/reframejs/reframe#readme) - Flexible web framework. It does SSR by default and can be used as SSG.
+
+#### [](#pre-rendering-1)Pre-Rendering
+
+#### [](#dynamic-pre-rendering-1)Dynamic Pre-Rendering
+
+Automatically and regularly render your deployed website to HTML.
+
+##### [](#saas-1)SaaS
+
+*   [Prerender.io](https://prerender.io/)
+*   [SEO4Ajax](https://www.seo4ajax.com/)
+*   [Prerender.cloud](https://www.prerender.cloud/)
+*   [SEO.js](http://getseojs.com/)
+*   [BromBone](https://www.brombone.com/)
+
+##### [](#libraries-3)Libraries
+
+*   [Prerender.io Node Server](https://github.com/prerender/prerender#readme) - The prerender.io Node Server is open source.
+
+#### [](#static-pre-rendering-1)Static Pre-Rendering
+
+_Some static pre-renderers, instead of generating HTML upon a generated DOM, directly render your pages to HTML._
+
+*   [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin#readme) - Uses Puppeteer to crawl & render your pages.
+*   [react-snap](https://github.com/stereobooster/react-snap#readme) - Uses Puppeteer to crawl & render your pages.
+*   [prep](https://github.com/prismagraphql/prep#readme) - Uses Chromeless to crawl & render your pages.
+*   [SSG webpack plugin](https://github.com/markdalgleish/static-site-generator-webpack-plugin#readme) - Directly render your pages to HTML. You provide render functions and routes. All routes are rendered at build-time using the render functions you provided. Also has a crawl mode to use a headless browser to automatically discover your website's URLs.
+
+  
+
+### [](#angular)Angular
+
+#### [](#ssr-2)SSR
+
+*   [Angular Universal](https://github.com/angular/universal#readme) - Official packages for SSR with Angular.
+
+#### [](#pre-rendering-2)Pre-Rendering
+
+#### [](#dynamic-pre-rendering-2)Dynamic Pre-Rendering
+
+Automatically and regularly render your deployed website to HTML.
+
+##### [](#saas-2)SaaS
+
+*   [Prerender.io](https://prerender.io/)
+*   [SEO4Ajax](https://www.seo4ajax.com/)
+*   [Prerender.cloud](https://www.prerender.cloud/)
+*   [SEO.js](http://getseojs.com/)
+*   [BromBone](https://www.brombone.com/)
+
+##### [](#libraries-4)Libraries
+
+*   [Prerender.io Node Server](https://github.com/prerender/prerender#readme) - The prerender.io Node Server is open source.
+
+#### [](#static-pre-rendering-2)Static Pre-Rendering
+
+_Some static pre-renderers, instead of generating HTML upon a generated DOM, directly render your pages to HTML._
+
+*   [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin#readme) - Uses Puppeteer to crawl & render your pages.
+*   [react-snap](https://github.com/stereobooster/react-snap#readme) - Uses Puppeteer to crawl & render your pages.
+*   [prep](https://github.com/prismagraphql/prep#readme) - Uses Chromeless to crawl & render your pages.
+*   [SSG webpack plugin](https://github.com/markdalgleish/static-site-generator-webpack-plugin#readme) - Directly render your pages to HTML. You provide render functions and routes. All routes are rendered at build-time using the render functions you provided. Also has a crawl mode to use a headless browser to automatically discover your website's URLs.
+
+  
+
+### [](#view-library-agnostic)View Library Agnostic
+
+#### [](#ssg-2)SSG
+
+*   [Phenomic](https://github.com/phenomic/phenomic#readme) - SSG based on a flexible plugin system.
+*   [Reframe](https://github.com/reframejs/reframe#readme) - Flexible web framework. It does SSR by default and can be used as SSG.
+
+#### [](#pre-rendering-3)Pre-Rendering
+
+#### [](#dynamic-pre-rendering-3)Dynamic Pre-Rendering
+
+Automatically and regularly render your deployed website to HTML.
+
+##### [](#saas-3)SaaS
+
+*   [Prerender.io](https://prerender.io/)
+*   [SEO4Ajax](https://www.seo4ajax.com/)
+*   [Prerender.cloud](https://www.prerender.cloud/)
+*   [SEO.js](http://getseojs.com/)
+*   [BromBone](https://www.brombone.com/)
+
+##### [](#libraries-5)Libraries
+
+*   [Prerender.io Node Server](https://github.com/prerender/prerender#readme) - The prerender.io Node Server is open source.
+
+#### [](#static-pre-rendering-3)Static Pre-Rendering
+
+_Some static pre-renderers, instead of generating HTML upon a generated DOM, directly render your pages to HTML._
+
+*   [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin#readme) - Uses Puppeteer to crawl & render your pages.
+*   [react-snap](https://github.com/stereobooster/react-snap#readme) - Uses Puppeteer to crawl & render your pages.
+*   [prep](https://github.com/prismagraphql/prep#readme) - Uses Chromeless to crawl & render your pages.
+*   [SSG webpack plugin](https://github.com/markdalgleish/static-site-generator-webpack-plugin#readme) - Directly render your pages to HTML. You provide render functions and routes. All routes are rendered at build-time using the render functions you provided. Also has a crawl mode to use a headless browser to automatically discover your website's URLs.
