@@ -2,14 +2,13 @@ Python
 ======================================================================================================================================================================================================================================================================================================================================================================================================
 
 
-Top 5 Frameworks In Python
-Depending upon the sort of functionalities and key features they provide to the user, these are top 5 frameworks in python, both micro-frameworks and full-stack frameworks.
+Top 5 Frameworks In Python 
 
-Django
-Web2Py
-Flask
-Bottle
-CherryPy 
+* Django
+* Web2Py
+* Flask
+* Bottle
+* CherryPy 
 https://www.edureka.co/blog/python-frameworks/
 
 A curated list of awesome Python frameworks, libraries, software and resources.
