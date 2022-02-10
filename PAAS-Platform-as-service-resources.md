@@ -10,6 +10,43 @@ The indented syntax is a metalanguage. SCSS is a nested metalanguage, as valid C
 
 SassScript provides the following mechanisms: variables, nesting, mixins, and selector inheritance.[2]
 
+![Differences between IaaS PaaS Saas DaaS](https://user-images.githubusercontent.com/21187699/153480802-e4ce0914-8a3b-4228-aadc-2018c71bb2dd.png)
+
+
+Differences between the cloud service models IaaS, PaaS, SaaS & DaaS
+https://www.cloud-ace.sg/blog-2019-12-10-differences-between-saas-paas-iaas-and-daas
+
+
+What is SaaS?
+SaaS stands for "Software as a Service". The provided service is software that is most cases centrally hosted and accessible through the internet by a browser client. With that customers can use the software without being concerned about computing resources or other money and time-consuming things.
+
+SaaS has the following benefits:
+
+No need for software installation
+Data can be stored on the online
+Software and data can be accessed by any device
+Data can be shared easily and effectively between multiple users
+Highly advanced software can be used almost instantly
+SaaS examples:
+
+Gmail
+Google Drive
+Google Calendar
+Google Sheets
+Hangouts
+
+
+What is PaaS?
+PaaS stands for Platform as a Service. The provided service is a platform that the allows users to develop, manage and run applications through the internet. 
+
+An example of PaaS is Google App Engine on Google Cloud Platform which let's users deploy application without spending time on the backend as it allocates and scales resources automatically and provides other automated tools for application development and management.
+
+
+
+
+
+
+
 
 
 [](#contents)Contents
