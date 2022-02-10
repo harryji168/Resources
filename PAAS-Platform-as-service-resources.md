@@ -42,10 +42,15 @@ PaaS stands for Platform as a Service. The provided service is a platform that t
 An example of PaaS is Google App Engine on Google Cloud Platform which let's users deploy application without spending time on the backend as it allocates and scales resources automatically and provides other automated tools for application development and management.
 
 
+What is IaaS?
+
+IaaS stands for "Infrastructure as a Service". The provided service is a complete infrastructure accessible through the internet containing networks, servers, operating systems and anything else that is required for building and running systems. Unlike PaaS, the user has control over the backend, can specify hardware components and set up the operating systems exactly to their liking. After that the user can develop and run a system on top of it.
+
+An example of IaaS is the Google Compute Engine on Google Cloud Platform. It give users the option to set up virtual machines (VM's) which operate very similar to traditional computers. 
 
 
-
-
+What is DaaS?
+DaaS stands for "Desktop as a Service". The provided service is a desktop environment that is accessible through the internet and is also sometimes referred to as "cloud desktop" or "virtual desktop". The hoster provides all the required resources to run the desktop environment and any application within it as well as storing and saving data for each session.
 
 
 
