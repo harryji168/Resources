@@ -1,0 +1,2 @@
+# Sylius 
+Sylius is an Open Source Headless eCommerce Platform for mid-market and enterprise brands that need custom solutions. With a modern approach to the professional development of projects, it allows the evolution of your digital stack at the pace that beats your competitors and delivers the experience your Customers deserve.
