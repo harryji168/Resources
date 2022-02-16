@@ -1,4 +1,4 @@
-# OOdbject-oriented design
+# OOD-bject-oriented design
 
 Object-oriented design is the process of planning a system of interacting objects for the purpose of solving a software problem. It is one approach to software design.
 
