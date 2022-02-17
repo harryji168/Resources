@@ -1,0 +1,5 @@
+## SRE
+ 
+A systematic investment plan (SIP) is a plan in which investors make regular, equal payments into a mutual fund, trading account, or retirement account such as a 401(k). SIPs allow investors to save regularly with a smaller amount of money while benefiting from the long-term advantages of dollar-cost averaging (DCA).
+
+Site reliability engineering (SRE) is a set of principles and practices[1] that incorporates aspects of software engineering and applies them to infrastructure and operations problems.[2] The main goals are to create scalable and highly reliable software systems.[2] Site reliability engineering is closely related to DevOps, a set of practices that combine software development and IT operations, and SRE has also been described as a specific implementation of DevOps.[2][3]
